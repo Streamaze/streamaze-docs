@@ -1,6 +1,16 @@
 {
   "index": "Introduction",
   "get-started": "Get Started",
+  "-- Dashboard": {
+    "type": "separator",
+    "title": "Dashboard"
+  },
   "connections": "Connections",
+  "features": "Features",
+  "-- OBS": {
+    "type": "separator",
+    "title": "OBS"
+  },
+  "obs-setup": "OBS Setup",
   "widgets": "Widgets"
 }

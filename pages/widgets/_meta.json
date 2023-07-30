@@ -1,8 +1,9 @@
 {
-    "obs-setup": "OBS Setup",
     "subathon": "Subathon",
     "chat-overlay": "Chat Overlay",
     "gps": "GPS",
     "sub-goal": "Sub Goal",
+    "polls": "Polls",
+    "word-rank": "Word Rank",
     "ticker": "Ticker"
 }

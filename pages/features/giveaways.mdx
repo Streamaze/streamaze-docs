@@ -1,0 +1,37 @@
+import { Callout } from 'nextra/components'
+
+# Start a Giveaway
+
+<Callout>
+    The giveaway `!enter` command only works with Kick at the moment. Adding additional platforms for giveaways is on the horizon.
+</Callout>
+
+Create an interactive giveaway with your chat. People can register by sending `!enter` in chat. Then, within the dashboard, spin the wheel to pick a winner.
+
+By default, after someone has won, they are removed from the list. You also have the option to remove all entries by using the "Reset All" button.
+
+## Preview
+
+**insert image here**
+
+## Setup `!enter`
+
+You'll need to configure the `!enter` command for your Kick chat. To do, we recommend adding BotRix to your chat. BotRix is a free bot that allows you to add custom commands to your chat.
+
+All you need to do is paste the following command into your chat:
+
+```
+!addcom !enter $(urlfetch ...)
+```
+
+## Stake Integration
+
+Streamaze has growing support for [Stake](https://stake.com) partners. You can enable "Stake Giveaway" to allow your viewers to enter the giveaway with their Stake.com username with `!enter stake_name`. This will also allow you to pick a winner from affiliates that have signed up with your code.
+
+### Add Affiliates
+
+If you choose to use the **Stake Giveaway** option, you need to tell Streamaze who is a valid affiliate. To do this, we recommend using our Chrome plugin to quickly add affiliates from your Stake dashboard.
+
+#### Using the Chrome Plugin
+
+To add affiliates with the Chrome plugin, simply highlight the table of affiliates from your Stake dashboard, right click, and select "Add referrals as Giveaway entries." You should see a notification that the referrals were added from Chrome.
