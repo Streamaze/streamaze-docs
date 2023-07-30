@@ -1,0 +1,35 @@
+import { Callout } from 'nextra/components'
+
+# Connecting Lanyard
+
+Lanyard is a free API that we'll use to display stream information in association with a Discord account. To do this, we only need 2 pieces of information: your Discord ID and your Lanyard API key. Read the next sections to learn how to get these.
+
+## Get Your Discord ID
+
+To get your Discord ID, go to your Discord settings and enable Developer Mode. This is under the "Advanced" tab. Then, right click on your profile and click "Copy ID." Paste this ID somewhere safe.
+
+**insert image here**
+
+## Get Your Lanyard API Key
+
+**Required:** You must "Allow direct messages from server members" in your Discord privacy settings for the bot to respond to you.
+
+**insert image here**
+
+### Get Your Key
+
+1. Join the [Lanyard Discord channel](https://discord.gg/lanyard)
+2. Find the Lanyard bot in the members list (Lanyard#5766)
+3. Send a DM to the bot with the message `.apikey`
+
+The response will be your API key for Lanyard. Copy this and paste it somewhere safe.
+
+<Callout>
+    This key should be <b>kept private</b>, as it allows anyone to set data in your Lanyard profile! You can generate a new one by sending `.apikey` again.
+</Callout>
+
+**insert image here**
+
+## How to Use
+
+Go to the Settings page from the Dashboard sidebar and go to the "Lanyard API" section near the bottom. Paste your Discord ID and Lanyard API key into the fields and click "Save."
