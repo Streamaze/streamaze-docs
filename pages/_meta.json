@@ -5,12 +5,26 @@
     "type": "separator",
     "title": "Dashboard"
   },
-  "connections": "Connections",
   "features": "Features",
+  "connections": "Connections",
   "-- OBS": {
     "type": "separator",
     "title": "OBS"
   },
   "obs-setup": "OBS Setup",
-  "widgets": "Widgets"
+  "widgets": "Widgets",
+  "-- Links": {
+    "type": "separator",
+    "title": "Links"
+  },
+  "streamaze.live": {
+    "title": "streamaze.live \u2197",
+    "href": "https://streamaze.live/landing",
+    "newWindow": true
+  },
+  "discord": {
+    "title": "Discord \u2197",
+    "href": "https://discord.gg/c3RetD5r5Y",
+    "newWindow": true
+  }
 }
