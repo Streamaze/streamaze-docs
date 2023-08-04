@@ -1,9 +1,37 @@
+import { Steps } from 'nextra/components'
+
 ## Widget URLs
 
 You can find all of the widget URLs here: [https://my.streamaze.live/widgets](https://my.streamaze.live/widgets)
 
 ## Add Widget to OBS
 
+Before adding any widgets, be sure that [your Lanyard API section is configured in the Settings page](/connections/lanyard). This is **required** for most widgets to work.
+
+<Steps>
+### Add a Browser Source
+
+1. Open OBS and click the "+" button in the Sources box.
+2. Select "Browser" from the list of sources.
+3. Name the source something like "Widget X" and click OK.
+
+![Add Browser Source](/images/obs/browser-source.png)
+
+### Use the Widget URL
+
+1. Paste the [widget URL](#widget-urls) into the URL field.
+2. Play with the width and height to find the perfect fit for your scene.
+3. Optionally follow the steps below to make the widget background transparent.
+</Steps>
+
 ## Transparent Background
 
+By default, OBS shows the Browser's background. You can make this transparent by adding the following CSS to the Custom CSS field in the Browser Source settings.
+
+```css
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+```
+
 ## Customize Widgets
+
+> Guide coming soon!
