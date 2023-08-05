@@ -31,11 +31,11 @@ const config: DocsThemeConfig = {
     logo,
     head: function useHead() {
         const { title } = useConfig();
-        const { route } = useRouter();
-        const socialCard =
-            route === "/" || !title
-                ? "https://nextra.site/og.jpeg"
-                : `https://nextra.site/api/og?title=${title}`;
+        // const { route } = useRouter();
+        // const socialCard =
+        //     route === "/" || !title
+        //         ? "https://nextra.site/og.jpeg"
+        //         : `https://nextra.site/api/og?title=${title}`;
 
         return (
             <>
@@ -55,7 +55,7 @@ const config: DocsThemeConfig = {
                     content="Learn how to use the ultimate live stream dashboard."
                 />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image" content={socialCard} />
+                {/* <meta name="twitter:image" content={socialCard} /> */}
                 <meta
                     name="twitter:site:domain"
                     content="docs.streamaze.live"
@@ -68,7 +68,7 @@ const config: DocsThemeConfig = {
                     name="og:title"
                     content={title ? title + " – Streamaze" : "Streamaze"}
                 />
-                <meta name="og:image" content={socialCard} />
+                {/* <meta name="og:image" content={socialCard} /> */}
                 <meta name="apple-mobile-web-app-title" content="Streamaze" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
                 <link rel="icon" href="/favicon.png" type="image/png" />
