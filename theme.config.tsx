@@ -56,14 +56,8 @@ const config: DocsThemeConfig = {
                 />
                 <meta name="twitter:card" content="summary_large_image" />
                 {/* <meta name="twitter:image" content={socialCard} /> */}
-                <meta
-                    name="twitter:site:domain"
-                    content="docs.streamaze.live"
-                />
-                <meta
-                    name="twitter:url"
-                    content="https://docs.streamaze.live"
-                />
+                <meta name="twitter:site:domain" content="docs.streamaze.xyz" />
+                <meta name="twitter:url" content="https://docs.streamaze.xyz" />
                 <meta
                     name="og:title"
                     content={title ? title + " – Streamaze" : "Streamaze"}
